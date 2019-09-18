@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto; }
+
+form {
+  margin: 15% auto;
+  width: 40%;
+  background-color: cornsilk; }
+  form .btn[name='google'] {
+    background-color: linen; }
+  form .form-group *:not(label) {
+    padding-bottom: 10px; }
+
+/*# sourceMappingURL=login.css.map */

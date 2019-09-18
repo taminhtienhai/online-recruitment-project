@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css"/>
+    <script type="text/javascript" src="/jquery"></script>
+</head>
+<body>
+    <%- include('../bar/nav-bar-seeker')  %>
+    <%- include('../bar/search-bar')%>
+    <div class="container bg-transparent">
+        <div class="row"> <!-- DIVIDE 2 COLUMN CONTENT -->
+            <!-- DISPLAY JOB -->
+            <ul class="navbar-nav col">
+                <% for(let i=0;i<=10;i++){%>
+                    <%- include('../items/job-items',{data:{salary:'1000',content:'IT'}})%>
+                <%}%>
+            </ul>
+            <!-- DISPLAY HOT JOB -->
+            <div class="col-2 bg-info" >
+            </div>
+        </div>
+    </div>
+</body>
+</html>

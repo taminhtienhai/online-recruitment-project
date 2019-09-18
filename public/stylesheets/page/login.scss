@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+form {
+  margin: 15% auto;
+  width: 40%;
+  background-color: cornsilk;
+
+  label {
+
+  }
+
+  .btn[name='google'] {
+    background-color: linen;
+  }
+
+  .btn[type='submit'] {
+
+  }
+
+  .form-group *:not(label){
+    padding-bottom: 10px;
+  }
+}
