@@ -34,6 +34,10 @@ class Applicants extends Table{
         }
     }
 
+    static getParamTable(){
+        return new Table().tableParams(this)
+    }
+
 }
 
 module.exports = Applicants

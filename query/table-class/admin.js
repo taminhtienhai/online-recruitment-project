@@ -22,6 +22,10 @@ class Admin extends Table{
             name: this._name
         }
     }
+
+    static getParamTable(){
+        return new Table().tableParams(this)
+    }
 }
 
 

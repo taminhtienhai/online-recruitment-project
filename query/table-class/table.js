@@ -3,14 +3,14 @@ class Table{
     constructor(){
     }
 
-    static tableParams(tableName){
-        let obj ={
+    tableParams(tableName){
+        let obj = {
             TableName: tableName.name,
-            AttributeDefinitions:[
-                { AttributeName: tableName.hashName(), AttributeType: 'S' }
-            ],
             KeySchema:[
                 { AttributeName: tableName.hashName(), KeyType: 'HASH' }
+            ],
+            AttributeDefinitions:[
+                { AttributeName: tableName.hashName(), AttributeType: 'S' }
             ],
             ProvisionedThroughput:{
                 ReadCapacityUnits: 10,

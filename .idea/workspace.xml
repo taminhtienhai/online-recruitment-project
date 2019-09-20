@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f6ca2bc9-98f4-440d-adc8-91cb5bb281ed" name="Default Changelist" comment="" />
+    <list default="true" id="f6ca2bc9-98f4-440d-adc8-91cb5bb281ed" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/query/create-table-sample.js" beforeDir="false" afterPath="$PROJECT_DIR$/query/create-table-sample.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/query/table-class/account.js" beforeDir="false" afterPath="$PROJECT_DIR$/query/table-class/account.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/query/table-class/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/query/table-class/admin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/query/table-class/applicants.js" beforeDir="false" afterPath="$PROJECT_DIR$/query/table-class/applicants.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/query/table-class/table.js" beforeDir="false" afterPath="$PROJECT_DIR$/query/table-class/table.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +25,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1Qgg43cEGUg9pnlv05QEfX7U04e" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="javascript.nodejs.core.library.configured.version" value="10.16.3" />
@@ -28,6 +42,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -71,11 +86,29 @@
       <workItem from="1568623174989" duration="12759000" />
       <workItem from="1568688902662" duration="5396000" />
       <workItem from="1568720342791" duration="10544000" />
-      <workItem from="1568785504064" duration="2128000" />
+      <workItem from="1568785504064" duration="3387000" />
+      <workItem from="1568807560649" duration="615000" />
+      <workItem from="1568915445561" duration="1852000" />
+      <workItem from="1568917402672" duration="88000" />
+      <workItem from="1568959775366" duration="125000" />
+      <workItem from="1568960223494" duration="252000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

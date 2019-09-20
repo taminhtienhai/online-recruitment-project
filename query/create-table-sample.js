@@ -1,6 +1,8 @@
 /** IMPORT QUERY **/
 const query =require('./queries-table')
 
+const tb = require('./table-class/table')
+
 /** IMPORT CLASS **/
 let Account = require('./table-class/account')
 let Admin = require('./table-class/admin')
@@ -12,11 +14,11 @@ let JobSeeker = require('./table-class/jobseeker')
 let ServicePackage = require('./table-class/service-package')
 
 /** USE QUERY TO CREATE TABLE **/
-query.createTable(Account.tableParams(Account))
-query.createTable(Admin.tableParams(Admin))
-query.createTable(Applicants.tableParams(Applicants))
-query.createTable(CvFile.tableParams(CvFile))
-query.createTable(Employer.tableParams(Employer))
-query.createTable(JobInfo.tableParams(JobInfo))
-query.createTable(JobSeeker.tableParams(JobSeeker))
-query.createTable(ServicePackage.tableParams(ServicePackage))
+console.log(Account.getParamTable())
+/*query.createTable(new tb().tableParams(Admin))
+query.createTable(new tb().tableParams(Applicants))
+query.createTable(new tb().tableParams(CvFile))
+query.createTable(new tb().tableParams(Employer))
+query.createTable(new tb().tableParams(JobInfo))
+query.createTable(new tb().tableParams(JobSeeker))
+query.createTable(new tb().tableParams(ServicePackage))*/

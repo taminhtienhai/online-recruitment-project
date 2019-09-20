@@ -53,6 +53,10 @@ class CvFile extends Table{
     set experience(value) {
         this._experience = value;
     }
+
+    static getParamTable(){
+        return new Table().tableParams(this)
+    }
 }
 
 module.exports = CvFile

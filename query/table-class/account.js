@@ -32,6 +32,10 @@ class Account extends Table{
             password: this._password
         }
     }
+
+    static getParamTable(){
+        return new Table().tableParams(this)
+    }
 }
 
 module.exports = Account

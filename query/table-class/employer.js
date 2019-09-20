@@ -81,6 +81,10 @@ class Employer extends Table{
     set logo(value) {
         this._logo = value;
     }
+
+    static getParamTable(){
+        return new Table().tableParams(this)
+    }
 }
 
 module.exports = Employer

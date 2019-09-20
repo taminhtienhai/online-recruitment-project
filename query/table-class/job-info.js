@@ -80,6 +80,10 @@ class JobInfo extends Table{
     set tag(value) {
         this._tag = value;
     }
+
+    static getParamTable(){
+        return new Table().tableParams(this)
+    }
 }
 
 module.exports = JobInfo
