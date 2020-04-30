@@ -13,7 +13,7 @@
     "express": "~4.16.1",
     "express-fileupload": "^1.1.6-alpha.4",
     "http-errors": "~1.6.3",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "morgan": "~1.9.1",
     "node-sass-middleware": "0.11.0",
     "nodemon": "^1.19.2",
